@@ -148,4 +148,8 @@
         max-width: 25%;
         height: 25px;
         }
+        div.content {
+        padding-top: 45.6485px;
+        padding-bottom: 45.6485px;
+        }
 }

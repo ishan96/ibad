@@ -68,7 +68,7 @@ h2 {
   margin-top: -30px;
 }
 
-/*****Restaurent Closed*****/
+/*****Scroll*****/
 #content a:focus {
   text-decoration: none;
 }
@@ -83,7 +83,7 @@ h2 {
   color: #E63838;
   display: inline-block;
   font-family: 'Quicksand',sans-serif;
-  font-size: 60px;
+  font-size: 30px;
 }
 
 .underline {
@@ -104,7 +104,7 @@ h2 {
   transform: scaleX(1);
 }
 
-/*****End of Restaurent Closed*****/
+/*****End of scroll*****/
 #ch {
   text-align: center;
   font-size: 30px;
@@ -118,8 +118,8 @@ h2 {
 
 #content {
   position: absolute;
-  top: 780vw;
-  left: 18vw;
+  top: 788vw;
+  left: 61vw;
 }
 
 #box1 {

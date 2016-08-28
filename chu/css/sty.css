@@ -1,0 +1,150 @@
+
+body{
+                color: #fff;
+font-family: 'Oxygen', sans-serif;
+background-color: #61122f
+
+}
+
+/**HEader***/
+#header-nav {
+        background-color: #f6b319;
+        border-radius: 0;
+        border: 0;
+
+}
+
+.navbar-brand h1{
+        text-align: left;
+         font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: 0.60;
+  margin-left: 0;
+  clear: both;
+  justify-content: center;
+}
+h2{
+        font-family: 'Pacifico', cursive;
+        font-weight: 100;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  }
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+
+}
+  #nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#ch {
+        text-align: center;
+        font-size: 20px;
+
+}
+#be{
+text-align: center;
+        font-size: 20px;
+}
+
+#su{
+text-align: center;
+        font-size: 20px;
+}
+        
+        #box1{
+        background-color: #999999;
+        height: 800vw;
+        }
+        #box2{
+        background-color: #999999;
+        height: 800vw;
+        }
+
+        #box3 {
+        background-color: #999999;
+        height: 800vw;
+        }
+
+
+       
+
+        /* ************Desktop devices only************* */
+        @media (min-width: 992px) {
+        #box1 {
+        width: calc(33.3333% - 2em);
+        margin: 1em;
+        }
+        #box2 {
+        width: calc(33.3333% - 2em);
+        margin: 1em;
+        }
+        #box3 {
+        width: calc(33.3333% - 2em);
+        margin: 1em;
+        }
+
+        
+
+        }
+
+
+        /******** Tablet devices ************/
+        @media (min-width: 768px) and (max-width: 991px) {
+        #box1 {
+        width: calc(50% - 2em);
+        margin: 1em;
+        }
+        #box2 {
+        width: calc(50% - 2em);
+        margin: 1em;
+        }
+        #box3 {
+        width: calc(100% - 2em);
+        margin: 1em;
+        }
+
+
+
+        }
+
+
+        /**************** Mobile devices *****************/
+        @media (max-width: 767px) {
+        #box1 {
+        width: calc(100% - 2em);
+        margin: 1em;
+        }
+        #box2 {
+        width: calc(100% - 2em);
+        margin: 1em;
+        }
+        #box3 {
+        width: calc(100% - 2em);
+        margin: 1em;
+        }
+
+        
+}

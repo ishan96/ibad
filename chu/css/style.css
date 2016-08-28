@@ -1,180 +1,161 @@
-
-body{
-                color: #fff;
-
-background-color: #0f1626
-
+body {
+  color: #fff;
+  background-color: #0f1626;
 }
 
-/**HEader***/
+/**Header***/
 #header-nav {
-        background-color: #f5f5f5;
-        border-radius: 0;
-        border: 0;
-
+  background-color: #f5f5f5;
+  border-radius: 0;
+  border: 0;
 }
 
-.navbar-brand h1{
-  font-family: 'Quicksand', sans-serif;
-
-color: #ff533d;
-        text-align: left;
-        font-size: 40px; 
-  text-shadow: -2px -2px 0px rgba(150, 150, 150, 1);
+/*****Food,llc*****/
+.navbar-brand h1 {
+  font-family: 'Quicksand',sans-serif;
+  color: #ff533d;
+  text-align: left;
+  font-size: 40px;
+  text-shadow: -2px -2px 0 rgba(150,150,150,1);
   margin-top: 0;
-  margin-bottom: 0px;
-  line-height: 0.60;
+  margin-bottom: 0;
+  line-height: .6;
   margin-left: 0;
   clear: both;
   justify-content: center;
 }
-h2{
-        font-family: 'Pacifico', cursive;
-        font-weight: 100;
 
+/*****End of Food,llc*****/
+/*****Our Menu*****/
+h2 {
+  font-family: 'Pacifico',cursive;
+  font-weight: 100;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+
+/***** End of Our Menu*****/
+.navbar-brand a:hover,.navbar-brand a:focus {
   text-decoration: none;
-  }
+}
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
-
-
 }
-  #nav-list {
+
+#nav-list {
   margin-top: 10px;
 }
+
 #nav-list a {
   color: #0f1626;
   text-align: center;
 }
+
 #nav-list a:hover {
   background: #ff533d;
 }
+
 #nav-list a span {
   font-size: 1.9em;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar {
   border: 1px solid #ff533d;
-
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
 
-/********************************************/
-
- #content a:focus{
-text-decoration:none;
+/*****Restaurent Closed*****/
+#content a:focus {
+  text-decoration: none;
 }
- #content a:hover  {
+
+#content a:hover {
   text-decoration: none;
 }
 
 #content a {
-  text-decoration: none; 
+  text-decoration: none;
   font-weight: 600;
   color: #E63838;
   display: inline-block;
-   font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand',sans-serif;
   font-size: 60px;
 }
 
 .underline {
-  background-color: #E63838; /* same as link color */
+  background-color: #E63838;
+/* same as link color */
   display: block;
   height: 2px;
   width: 100%;
   padding: 0;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.25s;
-  transition: all 0.25s;
+  -webkit-transition: all .25s;
+  transition: all .25s;
 }
 
 #content a:hover .underline {
-
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-
-/**************************************************/
+/*****End of Restaurent Closed*****/
 #ch {
-        text-align: center;
-        font-size: 30px;
-        font-family: 'Quicksand', sans-serif;
-
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Quicksand',sans-serif;
 }
-#header{
+
+#header {
   position: relative;
   height: 100vw;
-
 }
- #content{
+
+#content {
   position: absolute;
   top: 780vw;
   left: 18vw;
-  
- }  
+}
 
+#box1 {
+  background-color: #ab987a;
+  height: 800vw;
+}
 
-
-        #box1{
-        background-color: #ab987a;
-        height: 800vw;
-        
-        
-  
-        }
-        
-
-
-        /* ************Desktop devices only************* */
-        @media (min-width: 1200px) {
-        #box1 {
-        width:80vw;
-        margin: 2vw 8vw 8vw 10vw;
-        }
-        
-      
-        }
+/* *****Media Queries***** */
+/* ************Desktop devices only************* */
+@media (min-width: 1200px) {
+  #box1 {
+    width: 80vw;
+    margin: 2vw 8vw 8vw 10vw;
+  }
+}
 
 /* ************Tablets only************* */
-        @media (min-width: 992px) and (max-width: 1199px){
-        #box1 {
-        width:80vw;
-        margin: 2vw 8vw 8vw 10vw;
-        }
-        
-      
-        }
+@media (min-width: 992px) and (max-width: 1199px) {
+  #box1 {
+    width: 80vw;
+    margin: 2vw 8vw 8vw 10vw;
+  }
+}
 
-        /******** Mobiles devices ************/
-        @media (min-width: 768px) and (max-width: 991px) {
-        #box1 {
-       width:80vw;
-        
-        margin: 2vw 8vw 8vw 10vw;
-        }
-       
+/******** Mobiles devices ************/
+@media (min-width: 768px) and (max-width: 991px) {
+  #box1 {
+    width: 80vw;
+    margin: 2vw 8vw 8vw 10vw;
+  }
+}
 
-
-        }
-
-
-        /**************** Small Mobile devices *****************/
-        @media (max-width: 767px) {
-        #box1 {
-        width:80vw;
-       
-        margin: 2vw 8vw 8vw 10vw;
-        }
-        
-
-
- 
+/**************** Small Mobile devices *****************/
+@media (max-width: 767px) {
+  #box1 {
+    width: 80vw;
+    margin: 2vw 8vw 8vw 10vw;
+  }
 }
